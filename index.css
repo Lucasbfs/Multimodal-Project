@@ -22,7 +22,6 @@ hr {
   width: 200px;
 }
 h3 {
-  margin-top: 5px;
   margin-bottom: 0;
   color: #576241;
   font-size: 17pt;
@@ -128,6 +127,15 @@ a:hover {
 .footer-line {
   margin-top: 100px;
 }
+img {
+  margin: 20px 0 0 0;
+  width: 500px;
+}
+.author {
+  margin: 0;
+  font-size: 10pt;
+  color: gray;
+}
 
 @media (max-width: 800px) {
   .container {
@@ -153,5 +161,8 @@ a:hover {
   }
   span {
     display: block;
+  }
+  img {
+    width: 200px;
   }
 }
